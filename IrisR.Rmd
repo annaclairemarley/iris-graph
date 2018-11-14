@@ -15,3 +15,12 @@ library(tidyverse)
 View(iris)
 ```
 
+Make the graph:
+
+```{r}
+iris_graph <- ggplot(iris, aes(x = Petal.Length, y = Petal.Width)) +
+  geom_point()
+
+iris_graph
+```
+
